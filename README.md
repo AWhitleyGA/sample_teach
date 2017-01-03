@@ -172,9 +172,10 @@ sk = new User('sking@gmail.com', '9876')
 
 ```
 To have Admin inherit from User:
+
 1. Use the `extends` keyword to define the Admin class as a child class of the User class
-2. Ensure there are no duplicate methods or properties on the Admin class (only ones that are being **added**)
-3. Use the `super()` method in the Admin class' constructor function to call its parent class' constructor
+1. Ensure there are no duplicate methods or properties on the Admin class (only ones that are being **added**)
+1. Use the `super()` method in the Admin class' constructor function to call its parent class' constructor
 
 When we test these in the browser console, we can see that the Admin class includes all of the methods and properties of the User class while adding its own Admin-specific ones.
 
