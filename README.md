@@ -154,7 +154,7 @@ class User {
   }
 }
 
-class Admin extends User{
+class Admin extends User {
   constructor(email, password) {
     super(email, password)
     this.permissions = []
