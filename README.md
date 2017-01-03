@@ -178,4 +178,6 @@ To have Admin inherit from User:
 
 When we test these in the browser console, we can see that the Admin class includes all of the methods and properties of the User class while adding its own Admin-specific ones.
 
+![Browser console](./test.png)
+
 Bonus: What do you think will happen if a child class has a duplicate method?
